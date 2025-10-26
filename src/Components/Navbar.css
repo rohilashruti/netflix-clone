@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 55px;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-bar {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.search-bar::placeholder {
+  color: #999;
+}

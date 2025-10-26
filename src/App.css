@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
+  background-color: #141414; /* dark Netflix-style background */
+  color: #fff;               /* default text color for the app */
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+.movie-row h2 {
+  margin: 10px 0;
+}
+
+.movie-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  overflow-x: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.movie-card {
+  width: 150px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movie-card:hover {
+  transform: scale(1.08);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
 }

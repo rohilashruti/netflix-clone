@@ -1,0 +1,30 @@
+.movie-row {
+  margin: 2rem 0;
+}
+
+.movie-row h2 {
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.movie-list {
+  display: flex;
+  overflow-x: auto;
+  padding-left: 20px;
+  scroll-behavior: smooth;
+}
+
+.movie-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.movie-list::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+.no-movies {
+  color: #ccc;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,23 @@
+.movie-card {
+  width: 297px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.08);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-title {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5px;
+}

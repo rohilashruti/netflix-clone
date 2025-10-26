@@ -1,0 +1,41 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #141414;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  gap: 1.5rem;
+  width: 80%;
+  max-width: 800px;
+}
+
+.modal-poster {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.modal-info h2 {
+  margin-bottom: 1rem;
+}
+
+.modal-info button {
+  background: #e50914;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
